@@ -37,7 +37,17 @@ project/
 │ └── main.js -> Scripts de interação
 ├── assets/
 │ └── img/ -> Imagens do projeto
+├── contrib/ -> Fotos de contribuição
+│ ├── foto1.png
+│ └── foto2.png
 └── README.md
+
+
+## 🖼 Contribuições visuais
+
+![Foto 1](contrib/foto1.png)
+![Foto 2](contrib/foto2.png)
+![Foto 3](contrib/foto3.png)
 
 # 🚀 Instalação e uso
 
