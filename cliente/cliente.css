@@ -1,0 +1,83 @@
+.area-usuario {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.user-card {
+    width: 100%;
+    max-width: 480px;
+    background: linear-gradient(145deg, rgba(20, 20, 20, 0.7), rgba(30, 30, 30, 0.35));
+    padding: 30px;
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(14px);
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.45),
+        inset 0 3px 6px rgba(255, 255, 255, 0.05),
+        inset 0 -4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 28px;
+}
+
+.user-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 20px rgba(0, 200, 255, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0.15);
+}
+
+.user-name {
+    font-size: 1.6rem;
+    color: white;
+    text-shadow: 0 0 12px rgba(0, 200, 255, 0.5);
+}
+
+.user-status {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.user-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.user-btn {
+    display: block;
+    padding: 14px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(6px);
+}
+
+.user-btn:hover {
+    background: rgba(255, 255, 255, 0.18);
+    box-shadow: 0 0 12px rgba(0, 200, 255, 0.4);
+    transform: translateY(-3px) scale(1.02);
+}
+
+.logout {
+    background: linear-gradient(135deg, #ff3b3b, #c90000);
+    border: none;
+}
+
+.logout:hover {
+    box-shadow: 0 0 14px rgba(255, 0, 0, 0.5);
+    transform: translateY(-3px) scale(1.03);
+}
